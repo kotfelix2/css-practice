@@ -943,15 +943,18 @@ router.get('/template-6', function (req, res) {
         list: [
           {
             nickname: "Techie",
-            description: "The latest software update includes several new features and performance improvements, making it faster and easier to use..."
+            description: "The latest software update includes several new features and performance improvements, making it faster and easier to use...",
+            color: '#007BFF',
           },
           {
             nickname: "Traveler",
-            description: "We've added new destinations to our travel packages, including exotic locations and off-the-beaten-path adventures..."
+            description: "We've added new destinations to our travel packages, including exotic locations and off-the-beaten-path adventures...",
+            color: '#E83E8C',
           },
           {
             nickname: "Foodie",
-            description: "Our new menu features a variety of delicious dishes inspired by cuisines from around the world, with options for every taste and dietary preference..."
+            description: "Our new menu features a variety of delicious dishes inspired by cuisines from around the world, with options for every taste and dietary preference...",
+            color: '#6F42C1',
           }
         ],
         show_all: {

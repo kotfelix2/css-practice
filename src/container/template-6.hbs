@@ -44,8 +44,12 @@
 
         {{#each list}}
         <div class="list_block">
-            <strong class="updates_nickname">@{{nickname}} </strong>
-            <p class="updates_description">{{description}} </p>
+            <div class="square" style="background:{{color}}"><span></span></div>
+            
+            <div>
+                <strong class="updates_nickname">@{{nickname}} </strong>
+                <p class="updates_description">{{description}} </p>
+            </div>
         </div>
         {{/each}}
 
