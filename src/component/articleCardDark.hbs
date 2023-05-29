@@ -1,0 +1,20 @@
+{{#with data}}
+  <div class='articles_card'>
+    <img
+      src='{{photo}}'
+      alt='articles photo'
+      class='articles_photo'
+    />
+    {{#if isNew}}
+      <badge class='articles_photo_badge'>NEW</badge>
+    {{/if}}
+
+    <div class='articles_content'>
+      <h1 class='articles_name'>{{name}} </h1>
+      <p class='articles_text'>{{description}} </p>
+      <a href='#' class='button articles_card_button'>Read
+        All
+      </a>
+    </div>
+  </div>
+{{/with}}
