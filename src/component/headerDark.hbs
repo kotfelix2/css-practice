@@ -1,0 +1,28 @@
+<header class='header_block g-0'>
+{{#with header}}
+  <div class='header row g-0'>
+    <div class='col-3'>
+      <div class='logo'>
+        <span class='badge'>{{brandName}} </span>
+      </div>
+    </div>
+
+    <nav class='header_nav col-9'>
+        <div class='header_nav_right'>
+            {{> nav list=links}}
+        </div>
+    </nav>
+  </div>
+
+  <div class="ad_block row g-0">
+    {{#with ad}}
+      <div class="ad col-6">
+        <badge class="ad_badge">Ad:</badge>
+        <span class="ad_text">{{text}} </span>
+      </div>
+    {{/with}}
+
+    <div class="user_online col-6">Users online: {{userOnline}} </div>
+  </div>
+{{/with}}
+</header>
