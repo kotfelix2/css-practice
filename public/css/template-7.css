@@ -168,6 +168,7 @@ body {
 .button:hover {
   opacity: 0.7;
   cursor: pointer;
+  transition: 1s;
 }
 
 .hero_button {
@@ -282,7 +283,6 @@ body {
   padding: var(--space-m) var(--size-l);
   border: 1px solid var(--color-text);
   border-radius: 10px;
-  align-items: end;
 
   display: flex;
   flex-direction: row;
